@@ -18,15 +18,15 @@ public class O2 {
 	}
 	if(poeng >= 0 && poeng <=39) {
 		System.out.println("F");
-	}else if (poeng <=40 && poeng <=49) {
+	}else if (poeng >=40 && poeng <=49) {
 		System.out.println("E");
-	}else if (poeng <=50 && poeng <=59) {
+	}else if (poeng >=50 && poeng <=59) {
 		System.out.println("D");
-	}else if (poeng <=60 && poeng <=79) {
+	}else if (poeng >=60 && poeng <=79) {
 		System.out.println("C");
-	}else if (poeng <=80 && poeng <=89) {
+	}else if (poeng >=80 && poeng <=89) {
 		System.out.println("B");
-	}else if (poeng <=90 && poeng <=100) {
+	}else if (poeng >=90 && poeng <=100) {
 		System.out.println("A");
 		
 	}

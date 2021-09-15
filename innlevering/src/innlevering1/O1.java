@@ -4,8 +4,8 @@ public class O1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-String tallTxt = showInputDialog("Bruttolønn:");
-int lønn = Integer.parseInt(tallTxt);
+String tallTxt = showInputDialog("Bruttolonn:");
+int lonn = Integer.parseInt(tallTxt);
 
 		
 		
@@ -16,23 +16,23 @@ double Trinnskatt3 = 0.1152;
 double Trinnskatt4 = 0.1452;
 
 
-if (lønn <=0 && lønn>=164100) {
-	showMessageDialog(null, "Din lønn etter skatt:" + lønn*Trinnskatt0);	
+if (lonn >=0 && lonn<=164100) {
+	showMessageDialog(null, "Din lønn etter skatt:" + lonn*Trinnskatt0);	
 }
-if (lønn <=164099 && lønn>=230950){
-	showMessageDialog(null, "Din lønn etter skatt:" + lønn*Trinnskatt1);
+if (lonn >=164099 && lonn<=230950){
+	showMessageDialog(null, "Din lønn etter skatt:" + lonn*Trinnskatt1);
 	
 }
-if (lønn<=230949 && lønn>=580650) {
-	showMessageDialog(null, "Din lønn etter skatt:" + lønn*Trinnskatt2);
+if (lonn>=230949 && lonn<=580650) {
+	showMessageDialog(null, "Din lønn etter skatt:" + lonn*Trinnskatt2);
 	
 }
-if (lønn<=580649 && lønn>=934050){
-	showMessageDialog(null, "Din lønn etter skatt:" + lønn*Trinnskatt3);
+if (lonn>=580649 && lonn<=934050){
+	showMessageDialog(null, "Din lønn etter skatt:" + lonn*Trinnskatt3);
 
 }
-if (lønn<=934049) {
-	showMessageDialog(null, "Din lønn etter skatt:" + lønn*Trinnskatt4);
+if (lonn>=934049) {
+	showMessageDialog(null, "Din lønn etter skatt:" + lonn*Trinnskatt4);
 }
 	}
 
